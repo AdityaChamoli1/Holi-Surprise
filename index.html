@@ -51,11 +51,10 @@
 document.getElementById("clickBtn").addEventListener("click", function() {
     document.getElementById("clickBtn").style.display = "none";
     document.getElementById("videoBox").style.display = "block";
-    
-    let vid = document.getElementById("myVideo");
-    vid.play().catch(error => {
-        alert("Video play karne ke liye play button dabayein.");
-    });
+
+    var vid = document.getElementById("myVideo");
+    vid.load();
+    vid.play();
 });
 </script>
 
