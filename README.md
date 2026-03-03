@@ -43,7 +43,7 @@
 
 <div id="videoBox">
     <video id="myVideo" controls>
-        <source src="file:///D:/HoliProject/yourvideo.mp4.mp4">
+        <source src="HoliProject/yourvideo.mp4.mp4">
         Your browser does not support video.
     </video>
 </div>
